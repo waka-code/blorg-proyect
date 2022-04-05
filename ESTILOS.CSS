@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+ul,ol, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*menu hamburguesaa*/
+.menuhamburr{
+    display: none;
+}
+
+
+/*header nav*/
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.navv{
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 55vh;
+     background-color:#fc856c;
+     border-bottom-left-radius:100px;
+    
+}
+.nave{
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+}
+
+
+.navulll{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:28px;
+    color: #fff;
+}
+
+.navulll li{
+    margin-left:40px;
+    
+}
+
+.navulll li:hover{
+    text-decoration-line: underline;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.navulll li ul li{
+    color: rgb(255, 255, 255)
+}
+
+.navulll li ul li:hover{
+    color: rgb(3, 3, 3)
+}
+
+
+.navull li ul{
+    display:none;
+    position: absolute;
+    min-width: 300px;
+}
+
+.navull li:hover > ul{
+    display:block;
+   background-color:  #f77968da ;
+}
+
+.navull li ul li{
+    position: relative;
+}
+
+.navull li ul li{
+    right: 37px;
+    top: 0px;
+    margin-top: 3px;
+}
+
+.subnav{
+    background-color:#fff;
+    color: #000;
+    height:auto;
+    width: auto;
+}
+.btnlog{
+    padding:10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:  #fc786c;
+    margin-right:25px;
+    cursor: pointer;
+}
+
+.btnlog:hover{
+    background-color:  #f89683;
+}
+
+.article{
+    text-align: center;
+}
+.h2article{
+    font-size:50px;
+    color: #fff;
+}
+.particle{
+    margin:15px;
+    font-size:25px;
+    color: #fff;
+}
+.btnaticle{
+    margin:15px;
+    padding:10px 25px; 
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:  #fc786c;
+    margin-right:15px;
+    cursor: pointer;
+}
+
+.btnaticle:hover{
+   color:  #f89683;
+   background-color: rgba(255, 255, 255, 0.664);
+}
+
+/*body*/
+
+.body{
+    display: inline-block;
+}
+
+.bodycaj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyh2{
+    text-align: center;
+    margin-top: 30px;
+    font-size:35px;
+}
+
+.bodydiv{
+    margin: 30px;
+  }
+
+.h2divbo{
+    font-size:28px;
+}
+
+.pdivbo{
+    margin-top: 15px;
+    color: rgb(146, 146, 146);
+}
+
+.divim img{
+   height:80vh;  
+}
+
+/*celular*/
+
+.bodyme{
+    background-color:  #45458a ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: auto;
+    border-bottom-left-radius:100px;
+    border-top-right-radius: 100px;
+    height: 60vh;
+}
+
+.bodymetext{
+    color: #fff;
+}
+.bodytext{
+    margin: 10px;
+    font-size:25px;
+}
+    
+.ptext{
+    margin: 5px;
+}
+
+/*laptop*/
+
+.laptop{
+    display: inline-block;
+}
+
+.lapt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.laptopp img{
+    height:80vh;  
+}
+
+.textla{
+    font-size:28px;
+}
+
+.textlap{
+    margin: 25px;
+    color: rgb(146, 146, 146);
+}
+
+/*footer*/
+
+.footer{
+    display: inline-block;
+    background-color:  #45458a ;
+    width: 100%;
+    border-top-right-radius: 100px;
+}
+
+.footerr{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.ulfoo{
+    display: flex;
+    margin:50px;
+}
+
+.footerul li a{
+    margin-left:150px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footerul li a:hover{
+    text-decoration-line: underline;
+    overflow: hidden;
+    color: #000;
+}
+
+

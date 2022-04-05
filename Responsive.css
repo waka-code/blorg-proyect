@@ -1,0 +1,423 @@
+/* ESCRITORIOS GRANDES 
+----------------------------------------*/
+@media (min-width: 1080px) {
+
+}
+
+/* ESCRITORIOS NORMALES 
+----------------------------------------*/
+@media (max-width: 990px) {
+
+  .navv{
+    height: 48vh;
+   
+  }
+  .imgnav{
+    height:5vh;
+  }
+  .navulll li{
+    margin-left:30px;
+}
+.navull li ul li{
+  right: 27px;
+  margin-top: 1px;
+  top: 0px;
+}
+
+.btnlog{
+  padding:5px 15px;
+  margin-right:15px;
+  
+}
+.h2article{
+  margin:15px;
+  font-size:35px;
+  color: #fff;
+}
+
+.particle{
+  margin:10px;
+    font-size:15px;
+}
+
+.btnaticle{
+  padding:5px 15px;
+  margin-right:15px;
+  margin:15px;
+}
+
+/*body*/
+.bodyh2{
+  text-align: center;
+  margin: 40px;
+  font-size:28px;
+}
+.h2divbo{
+  font-size:20px;
+}
+.pdivbo{
+  margin-top: 15px;
+  font-size:15px;
+}
+.divim img{
+  height:60vh;  
+}
+
+/*celular*/
+
+.bodyme{
+  height: 35vh;
+}
+.bodytext{
+  font-size:25px;
+}
+.ptext{
+  font-size:15px;
+}
+.imgresposive{
+  height:47vh;
+}
+/*laptop*/
+
+.textla{
+  font-size:20px;
+}
+.textlap{
+  margin-top: 15px;
+  font-size:15px;
+}
+.laptopp img{
+  height:60vh;  
+}
+/*footer*/
+.ulfoo{
+  margin:20px;
+}
+
+.footerul li a{
+  margin-left:100px;
+  font-size:15px;
+  
+}
+.logofo{
+  height:5vh;
+}
+
+}
+
+/* tablet
+----------------------------------------*/
+@media (max-width:690px) {
+
+   /*hamburguesa*/
+   .menuhamburr{
+    display: block;
+}
+
+.menuhambur{
+  height:100px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imghmb{
+  width:100px;
+  margin-left:20px;
+}
+
+.menuhambur
+.checkbtn{
+  margin-right:20px;
+  cursor:pointer;
+}
+
+.hammen{
+ position: fixed;
+ width: 100%;
+ height: 0vh;
+ top: 100px;
+ background:  #f77968e7 ;
+ text-align: center;
+ transition: all .5s;
+ z-index: 99999999999;
+}
+
+.hammen 
+.hamul li{
+  display: none;
+  line-height:30px;
+  margin: 10px 0;
+  transition: all .5s;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+ }
+
+ .hammen 
+.hamul li:hover{
+  color: rgb(20, 16, 10);
+   transition: .3s;
+ }
+
+ .hammen li ul{
+  display:none;
+  position: absolute;
+  min-width: 300px;
+}
+
+.hammen li:hover > ul{
+  display:block;
+}
+
+.menuhambur
+.hammen
+.hamimg{
+  display:none;
+}
+ .bttn
+ .btnha:hover{
+  border: none;
+  color: #fff;
+  background-color:  #fc786c;
+  
+ }
+
+ #check{
+   display: none;
+ }
+
+ #check:checked ~ .hammen{
+   height:100vh;
+   
+  
+ }
+
+ #check:checked ~ .hammen li{
+  display: block;
+}
+
+ /*nav*/
+  .navull{
+    display:none;
+  }
+  .botones{
+    display:none;
+  }
+
+  .navv{
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    height: 40vh;
+    width: 100%;
+  }
+  .imghmb{
+    height:5vh;
+  }
+
+  .article{
+    margin:10px;
+    align-items:center;
+  }
+  
+  .h2article{
+    margin:10px;
+    font-size:25px;
+  }
+  
+  .particle{
+    margin:10px;
+      font-size:15px;
+  }
+  
+  .btnaticle{
+    padding:3px 7px;
+    margin-right:7px;
+    margin:7px;
+  }
+  /*body*/
+.bodyh2{
+  text-align: center;
+  margin: 30px;
+  font-size:22px;
+}
+.h2divbo{
+  font-size:15px;
+}
+.pdivbo{
+  margin-top: 15px;
+  font-size:12px;
+}
+.divim img{
+  height:45vh;  
+}
+/*celular*/
+
+.bodyme{
+  height: 25vh;
+}
+.bodytext{
+  font-size:22px;
+}
+.ptext{
+  font-size:12px;
+}
+.imgresposive{
+  height:35vh;
+}
+
+   /*laptop*/
+  
+  .textla{
+    font-size:15px;
+  }
+  .textlap{
+    margin-top: 15px;
+    font-size:12px;
+  }
+  .laptopp img{
+    height:45vh;  
+  }
+  /*footer*/
+
+
+.footerul li a{
+  margin-left:70px;
+  font-size:12px;
+  
+}
+.logofo{
+  height:3vh;
+}
+}
+
+
+/* MOVILES 
+----------------------------------------*/
+@media (max-width: 530px) {
+ 
+  
+  /*body*/
+  .bodycaj{
+    display: inline-block;
+    justify-content: center;
+    align-items:center;
+}
+.bodydiv{
+  text-align: center;
+}
+
+.divim{
+  display: flex;
+  align-self: center;
+  justify-content:center;
+}
+.divim
+.deskoptres{
+  height:30vh;
+}
+ /*celular*/
+
+.bodyme{
+  display: inline-block;
+    justify-content: center;
+    align-items:center;
+    height:50vh;
+}
+.celular{
+  display: flex;
+  align-self: center;
+  justify-content:center;
+}
+.imgresposive{
+  height:30vh;
+ 
+}
+.bodymetext{
+  text-align: center;
+}
+.bodytext{
+  font-size:15px;
+}
+.ptext{
+  font-size:10px;
+}
+
+  /*laptop*/
+.lapt{
+  display: inline-block;
+  justify-content: center;
+  align-items:center;
+}
+.tex{
+text-align: center;
+}
+.laptopp{
+  display: flex;
+  align-self: center;
+  justify-content:center;
+}
+.laptopp
+.deskoptlap{
+  height:30vh;
+}
+
+/*footerr*/
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+.footerr{
+  display: block;
+  justify-content: center;
+  align-items:center;
+  margin: 10px;
+  
+}
+.logo{
+  align-items:center;
+}
+.ulfoo{
+ display: block;
+  margin-right: 90px;
+}
+
+.ulfoo li a{
+ font-size:10px;
+}
+
+
+}
+
+
+/* MOVILES peque;o
+----------------------------------------*/
+@media (max-width: 320px){
+
+  .article{
+    text-align: center;
+  }
+  .h2article{
+    font-size:15px;
+  }
+  .particle{
+    font-size:12px;
+  }
+
+  .imghmb{
+    display: none;
+  }
+
+  .hambur{
+    height:3vh;
+    
+  }
+
+  .ptext{
+    font-size:8px;
+  }
+  
+}
