@@ -60,7 +60,7 @@
   font-size:15px;
 }
 .divim img{
-  height:60vh;  
+  height:30vh;  
 }
 
 /*celular*/
@@ -87,7 +87,7 @@
   font-size:15px;
 }
 .laptopp img{
-  height:60vh;  
+  height:30vh;  
 }
 /*footer*/
 .ulfoo{
@@ -138,7 +138,7 @@
  width: 100%;
  height: 0vh;
  top: 100px;
- background:  #f77968e7 ;
+ background:  #f77968 ;
  text-align: center;
  transition: all .5s;
  z-index: 99999999999;
@@ -250,7 +250,7 @@
   font-size:12px;
 }
 .divim img{
-  height:45vh;  
+  height:25vh;  
 }
 /*celular*/
 
@@ -277,7 +277,7 @@
     font-size:12px;
   }
   .laptopp img{
-    height:45vh;  
+    height:25vh;  
   }
   /*footer*/
 
@@ -315,7 +315,7 @@
 }
 .divim
 .deskoptres{
-  height:30vh;
+  height:20vh;
 }
  /*celular*/
 
@@ -360,7 +360,7 @@ text-align: center;
 }
 .laptopp
 .deskoptlap{
-  height:30vh;
+  height:20vh;
 }
 
 /*footerr*/
@@ -388,8 +388,6 @@ text-align: center;
 .ulfoo li a{
  font-size:10px;
 }
-
-
 }
 
 
